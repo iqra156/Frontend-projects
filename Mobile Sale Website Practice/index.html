@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mobile Sale </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Create a Header / Menu  -->
+    <header>
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none;color: inherit;">
+                <img src="images/logo.png" style="width: 25px;height: 25px;" /> MobileSale
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="marquee-container">
+        <div class="marquee">
+            <p>🔥 Discount Offer! Get 20% Off on All Orders - Limited Time Only! 🔥</p>
+        </div>
+    </div>
+
+
+    <!-- Add a Banner  -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Get <br>Mobiles on your Doorsteps!</h1>
+            <p>The best deals on the latest mobile phones.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/Free_Photo___Young_asian_woman_gesture_presenting_an_idea_with_hand_open_to_copy_space_isolated_on_blue_background_-removebg-preview.png"
+                alt="Mobile Deals">
+        </div>
+    </section>
+
+
+    <!-- Add product Features -->
+
+    <section id="features" class="features-section">
+        <h2>Why Choose Us</h2>
+        <div class="features-container">
+            <div class="feature-item">
+                <h3>Latest Models</h3>
+                <p>Stay ahead with the newest mobile technology.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Best Prices</h3>
+                <p>Unbeatable prices on all your favorite brands.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Free Shipping</h3>
+                <p>Fast and free delivery on all orders.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Display Product Categories  -->
+
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="products-container">
+
+            <!-- Display Product item -->
+            <div class="product-item">
+                <img src="images/comp_iphone.png" alt="Apple iPhone">
+                <h3>iPhone </h3>
+                <p>Discover best performance smartphone from Apple </p>
+                <a href="iphone.html" class="btn">Buy Now</a>
+            </div>
+
+            <div class="product-item">
+                <img src="images/comp_samsung.jpg" alt="Samsung Mobiles">
+                <h3>Samsung </h3>
+                <p>Discover best performance smartphone from samsung </p>
+                <a href="samsung.html" class="btn">Buy Now</a>
+            </div>
+
+            <div class="product-item">
+                <img src="images/comp_oppo.png" alt="Oppo Mobiles">
+                <h3>OPPO</h3>
+                <p>Discover best performance smartphone from oppo </p>
+                <a href="oppo.html" class="btn">Buy Now</a>
+            </div>
+
+            <!-- Add more product items as needed -->
+        </div>
+
+    </section>
+
+    <!-- Add Contact us Section -->
+
+    <section id="contact-us" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Please fill out the form below and we'll get in touch with you shortly.</p>
+
+    <form action="/submit-form" method="post" class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+
+    <!-- footer Section display organization name or moto -->
+
+    <footer>
+        <p>&copy; 2024 MobileSale. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
